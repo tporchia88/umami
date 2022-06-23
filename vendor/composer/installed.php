@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'cc11ea83e84754104b4a7d3d367c3e375f200654',
+        'reference' => '38d01be7aa4a8596c47a788cb5dee82a70e0be7f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -793,7 +793,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'cc11ea83e84754104b4a7d3d367c3e375f200654',
+            'reference' => '38d01be7aa4a8596c47a788cb5dee82a70e0be7f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -930,6 +930,15 @@
             'replaced' => array(
                 0 => '9.4.0',
             ),
+        ),
+        'drupal/views_infinite_scroll' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '2.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/views_infinite_scroll',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/views_ui' => array(
             'dev_requirement' => false,
