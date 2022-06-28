@@ -1,0 +1,12 @@
+uuid: 9b762e8a-d829-49b6-ac27-f794654efd0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ywtGZ6aQN-1g5CwgTXKtu7ds_1d7wJZCwu0a2FyIl78
+id: node.card_common_alt
+label: 'Card common alt'
+targetEntityType: node
+cache: true

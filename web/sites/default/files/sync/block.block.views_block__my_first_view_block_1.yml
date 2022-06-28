@@ -1,0 +1,33 @@
+uuid: 41e62c07-f701-4f45-b9c0-0e09a552da9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.my_first_view
+  module:
+    - node
+    - views
+  theme:
+    - umami
+id: views_block__my_first_view_block_1
+theme: umami
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:my_first_view-block_1'
+settings:
+  id: 'views_block:my_first_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page
+      recipe: recipe

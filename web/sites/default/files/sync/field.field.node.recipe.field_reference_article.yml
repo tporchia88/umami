@@ -1,0 +1,25 @@
+uuid: 4be5a0e5-caf0-45b4-abfd-6bf66f2cb981
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_article
+    - node.type.recipe
+id: node.recipe.field_reference_article
+field_name: field_reference_article
+entity_type: node
+bundle: recipe
+label: 'Reference article'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: my_first_view
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference
