@@ -2020,6 +2020,55 @@
             "install-path": "../../web/modules/contrib/jquery_ui_touch_punch"
         },
         {
+            "name": "drupal/swiper_formatter",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/swiper_formatter.git",
+                "reference": "1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/swiper_formatter-1.0.4.zip",
+                "reference": "1.0.4",
+                "shasum": "66478a3733f3427b324588843bb41b4058ae11a7"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.4",
+                    "datestamp": "1652615115",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "nk_",
+                    "homepage": "https://www.drupal.org/u/nk_",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Integration of Swiper as a configuration entity, with a couple of field formatters and views style.",
+            "homepage": "https://www.drupal.org/project/swiper_formatter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/swiper_formatter",
+                "issues": "https://www.drupal.org/project/issues/swiper_formatter"
+            },
+            "install-path": "../../web/modules/contrib/swiper_formatter"
+        },
+        {
             "name": "drupal/views_conditional",
             "version": "1.4.0",
             "version_normalized": "1.4.0.0",
@@ -2085,6 +2134,53 @@
                 "issues": "https://www.drupal.org/project/issues/views_conditional"
             },
             "install-path": "../../web/modules/contrib/views_conditional"
+        },
+        {
+            "name": "drupal/views_flexbox",
+            "version": "1.0.0-rc2",
+            "version_normalized": "1.0.0.0-RC2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_flexbox.git",
+                "reference": "8.x-1.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_flexbox-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "374663fb0ca068030181e08230486321fe0be4ca"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1590157940",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "richgerdes",
+                    "homepage": "https://www.drupal.org/user/3437973"
+                }
+            ],
+            "description": "Adds Flexbox layout to Views.",
+            "homepage": "https://www.drupal.org/project/views_flexbox",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_flexbox"
+            },
+            "install-path": "../../web/modules/contrib/views_flexbox"
         },
         {
             "name": "drupal/views_infinite_scroll",
