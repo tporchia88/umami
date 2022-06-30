@@ -20,7 +20,9 @@
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/swiper_formatter": "^1.0",
         "drupal/views_conditional": "^1.4",
+        "drupal/views_flexbox": "^1.0@RC",
         "drupal/views_infinite_scroll": "^2.0",
         "drush/drush": "^11.0"
     },
